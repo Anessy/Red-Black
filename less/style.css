@@ -1,0 +1,87 @@
+body {
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus {
+  outline: none !important;
+}
+.red {
+  color: #ff0036;
+}
+.menu {
+  background-color: black;
+  transform: translateY(-3rem);
+  position: relative;
+  z-index: 999;
+}
+.menu-logo {
+  transform: translateY(3rem);
+}
+.menu-main {
+  transform: translateY(2.9rem);
+  margin-top: 1.2rem;
+}
+.menu-main a {
+  margin-left: 1.5rem;
+  color: #a4a4a4;
+  font-size: 1.1rem;
+  padding: 1rem 0;
+}
+.menu-main a:hover {
+  border-top: 2.3px solid red;
+  border-bottom: 2.3px solid red;
+  color: white;
+}
+.slaider {
+  transform: translateY(-3rem);
+  width: 100%;
+}
+.slaider .carousel-caption {
+  padding-bottom: 20%;
+}
+.slaider .carousel-caption h1 {
+  display: inline-block;
+}
+.slaider .carousel-caption .red {
+  color: red;
+}
+.slaider .carousel-caption .button1 button {
+  color: white;
+  background-color: #ff0036;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+.slaider .carousel-caption .button1 button:focus {
+  background-color: #e00332;
+}
+.slaider .carousel-caption .button1 button:active {
+  background-color: #ff0036;
+}
+.slaider .carousel-caption .button2 button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+.slaider .carousel-caption .button2 button:focus {
+  background-color: #212121;
+}
+.slaider .carousel-caption .button2 button:active {
+  background-color: black;
+}
+.about .name h1 {
+  display: inline-block;
+  margin: 3rem 0;
+}
+.about .name h5 {
+  display: inline-block;
+}

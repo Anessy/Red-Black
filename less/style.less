@@ -1,0 +1,102 @@
+body {
+	font-size: 10px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+button:focus {outline:none !important;}
+
+.red {
+	color: @red;
+}
+
+@gray: #a4a4a4;
+@red: #ff0036;
+
+.menu {
+	background-color: black;
+	transform: translateY(-3rem);
+	position: relative;
+	z-index: 999;
+	&-logo {	
+		transform: translateY(3rem);	
+	}
+	&-main {
+		transform: translateY(2.9rem);
+		margin-top: 1.2rem;
+		a {
+			margin-left: 1.5rem;
+			color: @gray;
+			font-size: 1.1rem;
+			padding: 1rem 0;
+		}
+		a:hover {
+			border-top: 2.3px solid red;
+			border-bottom: 2.3px solid red ;
+			color: white;
+		}
+	}
+}
+
+.slaider {
+	transform: translateY(-3rem);
+	width: 100%;
+	.carousel-caption {
+		padding-bottom: 20%;
+		h1 {
+			display: inline-block;
+		}
+		.red {
+			color: red;
+		}
+		.button1 {
+			button {
+				color: white; 
+				background-color: @red;
+				border: none;
+				padding: 1rem 2rem;
+				font-size: 1rem;
+				margin-top: 3rem;
+			}
+			button:focus {
+				background-color:#e00332;
+			}			
+			button:active {
+				background-color: @red;
+			}
+		}
+		.button2 {
+			button {
+				color: white; 
+				background-color: black;
+				border: none;
+				padding: 1rem 2rem;
+				font-size: 1rem;
+				margin-top: 3rem;
+			}
+			button:focus {
+				background-color: #212121;
+			}			
+			button:active {
+				background-color: black;
+			}
+		}
+	}
+}
+
+.about {
+	
+	.name {
+		
+		h1 {
+			display: inline-block;
+			margin: 3rem 0;
+		}
+		h5 {
+			display: inline-block;
+		}
+	}
+}
