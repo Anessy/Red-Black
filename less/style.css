@@ -1,5 +1,6 @@
 body {
   font-size: 10px;
+  text-decoration: none;
 }
 a {
   text-decoration: none;
@@ -94,10 +95,29 @@ button:focus {
 .about .text h6 {
   margin-bottom: 1.5rem;
 }
+.about .akordeon .card-header {
+  border: 2px solid #ff0036;
+}
+.about .akordeon .card-body {
+  border-left: 2px solid #ff0036;
+  border-right: 2px solid #ff0036;
+}
+.about .akordeon .three {
+  border-bottom: 2px solid #ff0036;
+}
 .about .akordeon button {
+  width: 100%;
+  text-align: left;
   color: black;
+  margin: -1rem 0;
 }
 .about .akordeon button:hover {
   text-decoration: none;
   color: #ff0036;
+}
+.about .akordeon button:active {
+  text-decoration: none;
+}
+.about .picture {
+  margin: 6rem 0;
 }
