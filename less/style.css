@@ -88,3 +88,16 @@ button:focus {
 .about .name .nameH5 h5 {
   display: inline-block;
 }
+.about .text {
+  text-align: justify;
+}
+.about .text h6 {
+  margin-bottom: 1.5rem;
+}
+.about .akordeon button {
+  color: black;
+}
+.about .akordeon button:hover {
+  text-decoration: none;
+  color: #ff0036;
+}
