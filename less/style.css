@@ -12,7 +12,7 @@ button:focus {
   outline: none !important;
 }
 .red {
-  color: #ff0036;
+  color: #ff0036 !important;
 }
 .menu {
   background-color: black;
@@ -191,4 +191,122 @@ button:focus {
 .portfolio .picture:hover {
   background: url(../img/list/design.png) center no-repeat;
   background-size: cover;
+}
+.portfolio .line {
+  transform: translateY(8.5rem);
+}
+.product {
+  padding: 4rem 0;
+}
+.product h1,
+.product p {
+  display: inline-block;
+}
+.product .name {
+  text-align: center;
+  padding: 2rem 0 0 0;
+}
+.product .name p {
+  font-size: 1rem;
+}
+.product .features {
+  background-color: black;
+  padding: 0.5rem 1.4rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+.product .features h4 {
+  color: white;
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+.product .features img {
+  margin-top: -0.3rem;
+}
+.product .features:hover {
+  background-color: red;
+}
+.product .mobilePhone img {
+  width: 120%;
+  transform: translateX(-2.3rem);
+}
+.product .button2 {
+  text-align: center;
+  transform: translateY(-9rem);
+}
+.product .button2 button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+.product .button2 button:focus {
+  background-color: red;
+}
+.product .button2 button:active {
+  background-color: black;
+}
+.clients {
+  text-align: center;
+  background: url(../img/clients-bg.jpg) center no-repeat;
+  background-size: cover;
+  padding: 4rem 0;
+}
+.clients h1,
+.clients p,
+.clients h4 {
+  display: inline-block;
+  color: white;
+}
+.clients .name {
+  text-align: center;
+  padding: 2rem 0 0 0;
+}
+.clients .name p {
+  font-size: 1rem;
+}
+.clients .say h4,
+.clients .say h5 {
+  padding-top: 3rem ;
+  text-transform: uppercase;
+}
+.clients .say p {
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}
+.clients .slider .carousel-inner {
+  padding: 1rem 0;
+}
+.clients .slider .carousel-inner .carousel-item {
+  margin-bottom: 2rem;
+}
+.clients .slider .carousel-inner .carousel-item .sliderIMG {
+  width: 20%;
+  display: block;
+  transform: translateX(200%);
+}
+.clients .slider .carousel-indicators li {
+  width: 1%;
+}
+.clients .cli {
+  margin-top: 1.5rem;
+}
+.clients .picture {
+  transform: translateY(4.5rem);
+}
+.teamwork {
+  padding: 4rem 0;
+}
+.teamwork h1,
+.teamwork p {
+  display: inline-block;
+}
+.teamwork .name {
+  text-align: center;
+  padding: 2rem 0 0 0;
+}
+.teamwork .name p {
+  font-size: 1rem;
 }
