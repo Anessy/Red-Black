@@ -41,10 +41,13 @@ button:focus {outline:none !important;}
 		}
 	}
 }
-
+.card-body {
+	font-size: 0.9rem;
+}
 .slaider {
 	transform: translateY(-3rem);
 	width: 100%;
+	
 	.carousel-caption {
 		padding-bottom: 20%;
 		h1 {
@@ -142,5 +145,76 @@ button:focus {outline:none !important;}
 	}
 	.picture {
 		margin: 6rem 0;
+	}
+}
+
+.shape {
+	text-align: center;
+	img {
+		margin-bottom: 2rem;
+	}
+	h3 {
+		margin-bottom: 2rem;
+	}
+	p {
+		font-size: 1rem;
+	}
+}
+
+.portfolio {
+	text-align: center;
+	background-color: #262626;
+	padding: 4rem 0 8rem 0;
+	h1 {
+		color: white;
+		display: block;
+	}
+	p {
+		text-transform: uppercase;
+		font-size: 1rem;
+		padding: 1.5rem 0;	
+	}
+	.gray {
+		color: gray;
+	}
+	.picture {
+		height: 20rem;
+		&-One {
+			background: url(../img/list/1.jpg) center no-repeat;
+			background-size: cover;
+		}
+		&-Two {
+			background: url(../img/list/2.jpg) center no-repeat;
+			background-size: cover;
+		}
+		&-Three {
+			background: url(../img/list/3.jpg) center no-repeat;
+			background-size: cover;
+		}
+		&-Four {
+			background: url(../img/list/4.jpg) center no-repeat;
+			background-size: cover;
+		}
+		&-Five {
+			background: url(../img/list/5.jpg) center no-repeat;
+			background-size: cover;
+		}
+		&-Six {
+			background: url(../img/list/6.jpg) center no-repeat;
+			background-size: cover;
+		}
+		&-Seven {
+			background: url(../img/list/7.jpg) center no-repeat;
+			background-size: cover;
+		}
+		&-Eight {
+			background: url(../img/list/8.jpg) center no-repeat;
+			background-size: cover;
+		}
+		
+	}
+	.picture:hover {
+		background: url(../img/list/design.png) center no-repeat;
+		background-size: cover;
 	}
 }

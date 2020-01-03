@@ -38,6 +38,9 @@ button:focus {
   border-bottom: 2.3px solid red;
   color: white;
 }
+.card-body {
+  font-size: 0.9rem;
+}
 .slaider {
   transform: translateY(-3rem);
   width: 100%;
@@ -120,4 +123,72 @@ button:focus {
 }
 .about .picture {
   margin: 6rem 0;
+}
+.shape {
+  text-align: center;
+}
+.shape img {
+  margin-bottom: 2rem;
+}
+.shape h3 {
+  margin-bottom: 2rem;
+}
+.shape p {
+  font-size: 1rem;
+}
+.portfolio {
+  text-align: center;
+  background-color: #262626;
+  padding: 4rem 0 8rem 0;
+}
+.portfolio h1 {
+  color: white;
+  display: block;
+}
+.portfolio p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 1.5rem 0;
+}
+.portfolio .gray {
+  color: gray;
+}
+.portfolio .picture {
+  height: 20rem;
+}
+.portfolio .picture-One {
+  background: url(../img/list/1.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio .picture-Two {
+  background: url(../img/list/2.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio .picture-Three {
+  background: url(../img/list/3.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio .picture-Four {
+  background: url(../img/list/4.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio .picture-Five {
+  background: url(../img/list/5.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio .picture-Six {
+  background: url(../img/list/6.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio .picture-Seven {
+  background: url(../img/list/7.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio .picture-Eight {
+  background: url(../img/list/8.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio .picture:hover {
+  background: url(../img/list/design.png) center no-repeat;
+  background-size: cover;
 }
