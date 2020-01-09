@@ -390,7 +390,7 @@
         <div class="row">
           <div class="col-3 social">
             <div class="socialMin">
-              <div class="img1">
+              <div class="img">
                 <a class="link"  href="#my-modal" data-toggle="modal">
                   <img src="./img/teamwork/3.jpg">
                 </a>
@@ -401,7 +401,7 @@
           </div>
           <div class="col-3 social">
             <div class="socialMin">
-              <div class="img2">
+              <div class="img">
                 <a class="link"  href="#my-modal" data-toggle="modal">
                   <img src="./img/teamwork/2.jpg">
                 </a>
@@ -412,7 +412,7 @@
           </div>
           <div class="col-3 social">
             <div class="socialMin">
-              <div class="img3">
+              <div class="img">
                 <a class="link"  href="#my-modal" data-toggle="modal">
                   <img src="./img/teamwork/4.jpg">
                 </a>
@@ -423,7 +423,7 @@
           </div>
           <div class="col-3 social">
             <div class="socialMin">
-              <div class="img4">
+              <div class="img">
                 <a class="link"  href="#my-modal" data-toggle="modal">
                   <img src="./img/teamwork/2.jpg">
                 </a>
@@ -434,8 +434,13 @@
             
           </div>
         </div>
+        <div class="row justify-content-center line">
+          <img src="./img/about/line.png" alt="">
         </div>
+        </div>
+        
       </div>
+      
     </section>
 
     
@@ -451,24 +456,35 @@
     <div class="modal fade" tabindex="-1" role="dialog" id="my-modal" id="exampleModalCenter" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+          <div class="modal-header modal-window">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            <p>Modal body text goes here.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+          <div class="modal-body modal-window">
+            <div class="row justify-content-center">
+              <div class="forLink col-8">
+                <div class="col-3 a">
+                  <a href="#">
+                    <img src="./img/facebook.png" alt="">
+                  </a>
+                </div>
+                <div class="col-3 a">
+                  <a href="#">
+                    <img src="./img/twitter.png" alt="">
+                  </a>
+                </div>
+                <div class="col-3 a">
+                  <a href="#">
+                    <img src="./img/google.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-
 
     <script>
       $('#myModal').on('shown.bs.modal', function () {
