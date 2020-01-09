@@ -388,25 +388,50 @@
           <p>Lorem ipsum dolor sit amet, consectetur &nbsp;</p><p class="red">adipiscing elit.&nbsp;</p><p>Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
         </div>
         <div class="row">
-          <div class="col social">
-            <img src="" alt="">
-            <h5></h5>
-            <p></p>
+          <div class="col-3 social">
+            <div class="socialMin">
+              <div class="img1">
+                <a class="link"  href="#my-modal" data-toggle="modal">
+                  <img src="./img/teamwork/3.jpg">
+                </a>
+              </div>
+              <h5>Name Name</h5>
+              <p>Webdesigner</p>
+            </div> 
           </div>
-          <div class="col social">
-            <img src="" alt="">
-            <h5></h5>
-            <p></p>
+          <div class="col-3 social">
+            <div class="socialMin">
+              <div class="img2">
+                <a class="link"  href="#my-modal" data-toggle="modal">
+                  <img src="./img/teamwork/2.jpg">
+                </a>
+              </div>
+              <h5>Name Name</h5>
+              <p>Webdesigner</p>
+            </div>
           </div>
-          <div class="col social">
-            <img src="" alt="">
-            <h5></h5>
-            <p></p>
+          <div class="col-3 social">
+            <div class="socialMin">
+              <div class="img3">
+                <a class="link"  href="#my-modal" data-toggle="modal">
+                  <img src="./img/teamwork/4.jpg">
+                </a>
+              </div>
+              <h5>Name Name</h5>
+              <p>Webdesigner</p>
+            </div>
           </div>
-          <div class="col social">
-            <img src="" alt="">
-            <h5></h5>
-            <p></p>
+          <div class="col-3 social">
+            <div class="socialMin">
+              <div class="img4">
+                <a class="link"  href="#my-modal" data-toggle="modal">
+                  <img src="./img/teamwork/2.jpg">
+                </a>
+              </div>
+              <h5>Name Name</h5>
+              <p>Webdesigner</p>
+            </div>
+            
           </div>
         </div>
         </div>
@@ -421,10 +446,35 @@
 
 
 
-    
+    <!-- модальное окно -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="my-modal" id="exampleModalCenter" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
+    <script>
+      $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

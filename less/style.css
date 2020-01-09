@@ -310,3 +310,22 @@ button:focus {
 .teamwork .name p {
   font-size: 1rem;
 }
+.teamwork .social {
+  width: 90%;
+  margin: 1rem 0;
+  text-align: center;
+}
+.teamwork .social h5 {
+  margin: 1.5rem 0;
+}
+.teamwork .social p {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+.teamwork .social img {
+  width: 100%;
+}
+.teamwork .social .socialMin {
+  border: 1px dotted gray;
+  margin-top: 3rem;
+}
