@@ -105,18 +105,14 @@ button:focus {outline:none !important;}
 				display: inline-block;
 			}
 		}
-		
 	}
 	.text {
 		text-align: justify;
 		h6 {
 			margin-bottom: 1.5rem;
 		}
-		
 	}
-
 	.akordeon {
-		
 		.card-header {
 			border: 2px solid @red;
 		}
@@ -139,9 +135,7 @@ button:focus {outline:none !important;}
 		}
 		button:active {
 			text-decoration: none;
-		}
-		
-		
+		}	
 	}
 	.picture {
 		margin: 6rem 0;
@@ -324,6 +318,10 @@ button:focus {outline:none !important;}
 	}
 	.cli {
 		margin-top: 1.5rem;
+		img {
+			width: 100%;
+		}
+		
 	}
 	.picture {
 		transform: translateY(4.5rem);
@@ -389,3 +387,103 @@ button:focus {outline:none !important;}
 .close {
 	color: red;
 }
+
+//медиа запросы 
+// Большие девайсы (большие десктопы, < 1200px)
+@media (max-width: 1199.98px) {
+	.menu {
+		&-main {
+			a {
+				font-size: 0.9rem;
+			}
+		}
+	}
+	.slaider {
+
+		.slide {
+			width: 100%;
+		}
+			
+	}
+ }
+
+ // Малые девайсы («ландшафтные», < 768px)
+@media (max-width: 768.98px) {  
+	.menu {
+		&-main {
+			margin-left: 3.5rem;
+			a:hover {
+				border-top: 0px solid red;
+				border-bottom: 0px solid red ;
+				color: white;
+			}
+		}
+	}
+	.slaider {
+		.carousel-caption {
+			padding-bottom: 0%;
+			.button1 {
+				button {
+					padding: 1rem 1rem;
+					font-size: 0.8rem;
+				}
+			}
+			.button2 {
+				button {
+					padding: 1rem 1rem;
+					font-size: 0.8rem;
+				}
+			}
+		}
+	}
+	}
+
+
+
+
+/*.slaider {
+	transform: translateY(-3rem);
+	width: 100%;
+	
+	.carousel-caption {
+		padding-bottom: 20%;
+		h1 {
+			display: inline-block;
+		}
+		.red {
+			color: red;
+		}
+		.button1 {
+			button {
+				color: white; 
+				background-color: @red;
+				border: none;
+				padding: 1rem 2rem;
+				font-size: 1rem;
+				margin-top: 3rem;
+			}
+			button:focus {
+				background-color:#e00332;
+			}			
+			button:active {
+				background-color: @red;
+			}
+		}
+		.button2 {
+			button {
+				color: white; 
+				background-color: black;
+				border: none;
+				padding: 1rem 2rem;
+				font-size: 1rem;
+				margin-top: 3rem;
+			}
+			button:focus {
+				background-color: #212121;
+			}			
+			button:active {
+				background-color: black;
+			}
+		}
+	}
+} */

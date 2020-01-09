@@ -293,6 +293,9 @@ button:focus {
 .clients .cli {
   margin-top: 1.5rem;
 }
+.clients .cli img {
+  width: 100%;
+}
 .clients .picture {
   transform: translateY(4.5rem);
 }
@@ -354,3 +357,78 @@ button:focus {
 .close {
   color: red;
 }
+@media (max-width: 1199.98px) {
+  .menu-main a {
+    font-size: 0.9rem;
+  }
+  .slaider .slide {
+    width: 100%;
+  }
+}
+@media (max-width: 768.98px) {
+  .menu-main {
+    margin-left: 3.5rem;
+  }
+  .menu-main a:hover {
+    border-top: 0px solid red;
+    border-bottom: 0px solid red ;
+    color: white;
+  }
+  .slaider .carousel-caption {
+    padding-bottom: 0%;
+  }
+  .slaider .carousel-caption .button1 button {
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+  }
+  .slaider .carousel-caption .button2 button {
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+/*.slaider {
+	transform: translateY(-3rem);
+	width: 100%;
+	
+	.carousel-caption {
+		padding-bottom: 20%;
+		h1 {
+			display: inline-block;
+		}
+		.red {
+			color: red;
+		}
+		.button1 {
+			button {
+				color: white; 
+				background-color: @red;
+				border: none;
+				padding: 1rem 2rem;
+				font-size: 1rem;
+				margin-top: 3rem;
+			}
+			button:focus {
+				background-color:#e00332;
+			}			
+			button:active {
+				background-color: @red;
+			}
+		}
+		.button2 {
+			button {
+				color: white; 
+				background-color: black;
+				border: none;
+				padding: 1rem 2rem;
+				font-size: 1rem;
+				margin-top: 3rem;
+			}
+			button:focus {
+				background-color: #212121;
+			}			
+			button:active {
+				background-color: black;
+			}
+		}
+	}
+} */
