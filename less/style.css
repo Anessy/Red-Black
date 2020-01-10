@@ -385,50 +385,61 @@ button:focus {
     padding: 1rem 1rem;
     font-size: 0.8rem;
   }
+  .product .mobilePhone img {
+    width: 120%;
+    transform: translateX(-1.2rem);
+  }
+  .product .features {
+    text-align: center !important;
+  }
 }
-/*.slaider {
-	transform: translateY(-3rem);
-	width: 100%;
-	
-	.carousel-caption {
-		padding-bottom: 20%;
-		h1 {
-			display: inline-block;
-		}
-		.red {
-			color: red;
-		}
-		.button1 {
-			button {
-				color: white; 
-				background-color: @red;
-				border: none;
-				padding: 1rem 2rem;
-				font-size: 1rem;
-				margin-top: 3rem;
-			}
-			button:focus {
-				background-color:#e00332;
-			}			
-			button:active {
-				background-color: @red;
-			}
-		}
-		.button2 {
-			button {
-				color: white; 
-				background-color: black;
-				border: none;
-				padding: 1rem 2rem;
-				font-size: 1rem;
-				margin-top: 3rem;
-			}
-			button:focus {
-				background-color: #212121;
-			}			
-			button:active {
-				background-color: black;
-			}
-		}
-	}
-} */
+@media (max-width: 425.98px) {
+  .menu-main {
+    text-align: right;
+    padding-bottom: 2rem;
+  }
+  .menu-main a {
+    display: block;
+    margin-right: 2rem;
+    margin-top: -2rem;
+    margin-bottom: 0.5rem;
+  }
+  .slaider .carousel-caption {
+    padding-bottom: 0%;
+  }
+  .slaider .carousel-caption h1 {
+    font-size: 1rem;
+  }
+  .slaider .carousel-caption h5 {
+    font-size: 0.5rem;
+    margin-bottom: -2rem;
+  }
+  .slaider .carousel-caption .button1 button {
+    padding: 0.5rem 2rem;
+    font-size: 0.8rem;
+  }
+  .slaider .carousel-caption .button2 button {
+    padding: 0.5rem 2.1rem;
+    font-size: 0.8rem;
+    margin-top: -0.1rem;
+  }
+  .about .name .nameH5 h5 {
+    margin: 0 1rem;
+  }
+  .about .picture img {
+    width: 100%;
+  }
+  .man img {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .portfolio .picture {
+    height: 7rem;
+  }
+  .portfolio .line img {
+    width: 100%;
+  }
+  .product .button2 button {
+    transform: translateY(8rem);
+  }
+}
