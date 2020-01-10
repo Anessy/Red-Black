@@ -54,6 +54,9 @@ button:focus {
 .slaider .carousel-caption .red {
   color: red;
 }
+.slaider .carousel-caption .button1 {
+  width: 100%;
+}
 .slaider .carousel-caption .button1 button {
   color: white;
   background-color: #ff0036;
@@ -67,6 +70,9 @@ button:focus {
 }
 .slaider .carousel-caption .button1 button:active {
   background-color: #ff0036;
+}
+.slaider .carousel-caption .button2 {
+  width: 100%;
 }
 .slaider .carousel-caption .button2 button {
   color: white;
@@ -227,8 +233,8 @@ button:focus {
   background-color: red;
 }
 .product .mobilePhone img {
-  width: 120%;
-  transform: translateX(-2.3rem);
+  width: 100%;
+  transform: translateX(0rem);
 }
 .product .button2 {
   text-align: center;
@@ -365,7 +371,7 @@ button:focus {
     width: 100%;
   }
 }
-@media (max-width: 768.98px) {
+@media (max-width: 1000.98px) {
   .menu-main {
     margin-left: 3.5rem;
   }
@@ -393,7 +399,7 @@ button:focus {
     text-align: center !important;
   }
 }
-@media (max-width: 425.98px) {
+@media (max-width: 770.98px) {
   .menu-main {
     text-align: right;
     padding-bottom: 2rem;
@@ -414,15 +420,6 @@ button:focus {
     font-size: 0.5rem;
     margin-bottom: -2rem;
   }
-  .slaider .carousel-caption .button1 button {
-    padding: 0.5rem 2rem;
-    font-size: 0.8rem;
-  }
-  .slaider .carousel-caption .button2 button {
-    padding: 0.5rem 2.1rem;
-    font-size: 0.8rem;
-    margin-top: -0.1rem;
-  }
   .about .name .nameH5 h5 {
     margin: 0 1rem;
   }
@@ -441,5 +438,39 @@ button:focus {
   }
   .product .button2 button {
     transform: translateY(8rem);
+  }
+  .clients .picture img {
+    width: 100%;
+  }
+  .line img {
+    width: 100%;
+  }
+  .mobilePhone img {
+    width: 100% !important;
+    transform: translateX(-2.3rem);
+  }
+}
+@media (max-width: 572.98px) {
+  .button1 button {
+    margin-bottom: -2rem;
+  }
+  .button2 {
+    margin-top: -1rem;
+  }
+}
+@media (max-width: 462.98px) {
+  .button1 {
+    margin-top: -3.2rem;
+  }
+  .button1 button {
+    transform: translateY(3rem);
+    padding: 0.5rem 1rem !important;
+  }
+  .button2 button {
+    transform: translateY(1.2rem);
+    padding: 0.5rem 1.2rem !important;
+  }
+  .menu-main a {
+    transform: translateX(2rem);
   }
 }

@@ -57,6 +57,7 @@ button:focus {outline:none !important;}
 			color: red;
 		}
 		.button1 {
+			width: 100%;
 			button {
 				color: white; 
 				background-color: @red;
@@ -73,6 +74,7 @@ button:focus {outline:none !important;}
 			}
 		}
 		.button2 {
+			width: 100%;
 			button {
 				color: white; 
 				background-color: black;
@@ -249,8 +251,8 @@ button:focus {outline:none !important;}
 	.mobilePhone {
 		
 		img {
-			width: 120%;
-			transform: translateX(-2.3rem);
+			width: 100%;
+			transform: translateX(0rem);
 		}
 		
 	}
@@ -408,7 +410,7 @@ button:focus {outline:none !important;}
  }
 
  // Малые девайсы («ландшафтные», < 768px)
-@media (max-width: 768.98px) {  
+@media (max-width: 1000.98px) {  
 	.menu {
 		&-main {
 			margin-left: 3.5rem;
@@ -452,7 +454,7 @@ button:focus {outline:none !important;}
 	
 	}
 
-	@media (max-width: 425.98px) {
+	@media (max-width: 770.98px) {
 		.menu {
 			&-main {
 				text-align: right;
@@ -476,20 +478,7 @@ button:focus {outline:none !important;}
 					margin-bottom: -2rem;
 				}
 				padding-bottom: 0%;
-				.button1 {
-					
-					button {
-						padding: 0.5rem 2rem;
-						font-size: 0.8rem;
-					}
-				}
-				.button2 {
-					button {
-						padding: 0.5rem 2.1rem;
-						font-size: 0.8rem;
-						margin-top: -0.1rem;	
-					}
-				}
+				
 			}
 		}
 		.about {
@@ -529,4 +518,63 @@ button:focus {outline:none !important;}
 				}
 			}
 		}
+		.clients {
+			.picture {
+				img {
+					width: 100%;
+				}
+			}
+		}
+		.line {
+			img {
+				width: 100%;
+			}
+		}
+		.mobilePhone {
+		
+			img {
+				width: 100% !important;
+				transform: translateX(-2.3rem);
+			}
+			
+		}
 	}
+
+	@media (max-width: 572.98px) {
+		.button1 {
+			button {
+			margin-bottom: -2rem;	
+			}
+		}
+		.button2 {
+			margin-top: -1rem;
+		}
+	}
+
+	@media (max-width: 462.98px) {
+		.button1 {
+			margin-top: -3.2rem;
+			button {
+				transform: translateY(3rem);
+				padding: 0.5rem 1rem !important;
+			}
+		}
+		.button2 {
+			
+			button {
+				transform: translateY(1.2rem);
+				padding: 0.5rem 1.2rem !important;
+			}
+		}
+
+		.menu {
+			&-main { 
+				a {
+					transform: translateX(2rem);
+				}
+				
+			}
+	}
+}
+
+	
